@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+canvas {
+    border: solid white 1.5px;
+    border-radius: 20px;
+    background-color: #333;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.snakeGame {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+    font-size: 3rem;
+}
+
+#score {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#gameOver {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 20px;
+}
+
+
+
+/* Leaderboard styles */
+#leaderboardsection {
+    text-align: center;
+    display: inline-block;
+}
+
+#leaderboardsection h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#leaderboardsection table {
+    width: 100%;
+    max-width: 400px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left:150px;
+    background-color: #222;
+    color: white;
+}
+.leaderhead{
+    margin-top: 300px;
+}
+
+#leaderboardsection th, #leaderboardsection td {
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+#leaderboardsection th {
+    background-color: #555;
+    color: yellow;
+}
+
+#leaderboardsection tr:nth-child(even) {
+    background-color: grey;
+}
+
+#leaderboardsection tr:nth-child(odd) {
+    background-color: lightslategrey;
+}
+
+#leaderboardsection td {
+    text-align: center;
+}
